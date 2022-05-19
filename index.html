@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>formos</title>
+</head>
+<body>
+   <form action="/" method="">
+      <input type="text" name="namePerson" maxlength="10" value="Vardas"><!--Raides automatiskai nesitrina-->
+      <input type="text" name="firstname" maxlength="16" placeholder="Pavarde"><br><!--Raides automatiskai tinasi-->
+      <input type="password" name="pass" maxlength="20"> <br> <!--simbulo kiekio ribojimas ribojimas-->
+
+      <label for="ap">Obuolis</label> <input id="ap" type="checkbox" name="1" value="apple">
+      <label for="sly">Slyva</label> <input id="sly" type="checkbox" name="1" value="slyva">
+      <label for="vys">Vysnia</label> <input id="vys" type="checkbox" name="1" value="vysnia">
+      <label for="ban">Bananas</label> <input id="ban" type="checkbox" name="1" value="bananas"><br>
+
+      Namas<input type="radio" name="2">
+      Butas<input type="radio" name="2">
+      Kambaris<input type="radio" name="2">
+      rusis<input type="radio" name="2"><br>
+
+      <textarea name="text" cols="30" rows="10" placeholder="Cia galite rasyti kazkoki teksta"></textarea><br>
+
+      <select name="testas">
+         <option value="txt">txt</option>
+         <option value="js">js</option>
+         <option value="html">html</option>
+         <option selected value="pyhon">python</option>
+      </select>
+
+      <select name="testas2" size="3"><!--rodis pirmus trys elementus-->
+         <option>delfi</option>
+         <option>cc+</option>
+         <option>css</option>
+         <option>ruby</option>
+         <option>symfoni</option>  
+         <option>django</option>
+         <option>flask</option>
+         <option>trinket</option>
+         <option>php</option>
+      </select>
+
+      <select name="testas3" size="3" multiple><!--leidzia pasirinkti keleta elementu-->
+         <option>delfi</option>
+         <option>cc+</option>
+         <option>css</option>
+         <option>ruby</option>
+         <option>symfoni</option>  
+         <option>django</option>
+         <option>flask</option>
+         <option>trinket</option>
+         <option>php</option>
+      </select><br>
+
+      <input type="submit" name="submit">
+      <input type="reset"><br>
+      <button type="submit">siusti</button><!--geriau sita naudoti-->
+</form>
+</body>
+</html>
